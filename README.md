@@ -1,17 +1,25 @@
 National Korean Sign Language Search Automation
 
-This repository contains a Python script that automates the process of searching for Korean sign language terminology using Selenium and saves the results to an Excel file. The script reads a list of terms from an Excel file, performs searches on the National Institute of Korean Language sign language dictionary, and outputs the results back to the Excel file.
+This repository contains a Python script that automates the process of searching for Korean sign language terminology using Selenium and saves the results to an Excel file.
+The script reads a list of terms from an Excel file, performs searches on the National Institute of Korean Language sign language dictionary, and outputs the results back to the Excel file.
+
 Repository Structure
 
 bash
+├── 128/  
 
-├── 128/
-│   └── chromedriver-win64/
-│       └── chromedriver-win64/
-│           └── chromedriver.exe   # ChromeDriver for Selenium
-├── chrome.py                      # Main script for automating search and saving results
-├── 전문용어선정_후보_from_Erin.xlsx  # Input Excel file with terms to search
-├── 전문용어선정_후보_with_results.xlsx # Output Excel file with search results
+│   └── chromedriver-win64/  
+
+│       └── chromedriver-win64/  
+
+│           └── chromedriver.exe   # ChromeDriver for Selenium  
+
+├── chrome.py                      # Main script for automating search and saving results  
+
+├── 전문용어선정_후보_from_Erin.xlsx  # Input Excel file with terms to search  
+
+├── 전문용어선정_후보_with_results.xlsx # Output Excel file with search results  
+
 
 Requirements
 
