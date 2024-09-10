@@ -8,17 +8,17 @@ Repository Structure
 bash
 ├── 128/  
 
-│   └── chromedriver-win64/  
+    │   └── chromedriver-win64/  
 
-│       └── chromedriver-win64/  
+    │       └── chromedriver-win64/  
 
-│           └── chromedriver.exe   # ChromeDriver for Selenium  
+    │           └── chromedriver.exe   # ChromeDriver for Selenium  
 
-├── chrome.py                      # Main script for automating search and saving results  
+    ├── chrome.py                      # Main script for automating search and saving results  
 
-├── 전문용어선정_후보_from_Erin.xlsx  # Input Excel file with terms to search  
+    ├── 전문용어선정_후보_from_Erin.xlsx  # Input Excel file with terms to search  
 
-├── 전문용어선정_후보_with_results.xlsx # Output Excel file with search results  
+    ├── 전문용어선정_후보_with_results.xlsx # Output Excel file with search results  
 
 
 Requirements
